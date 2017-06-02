@@ -6,7 +6,8 @@ This server requires the Node Js Version 6.6.0 or higher<br>
 #### `Windows`
 
 * On Windows OS you can install a preferred Version of NodeJS easily from https://nodejs.org/en/download/
-* After installing your preffered version of NodeJS (>6.2), you can easily start up NodeJS Command Prompt then run
+* Afte
+installing your preffered version of NodeJS (>6.2), you can easily start up NodeJS Command Prompt then run
 ``node app`` or ``node app.js`` you even might specify the port in which to run the server on eg:- ``node app.js 8080`` if you do not mention the port, the mentioned port from **Config.port** will be used to run the server
 
 #### `OS X`
@@ -21,10 +22,11 @@ This server requires the Node Js Version 6.6.0 or higher<br>
 
 #### `Linux`
 
-* On Linux you need to have NodeJS installed (>6.2) if you do not have it installed simply open the terminal then run
-``$ nvm install 6.2`` (6.2 or your prefered version)
-* You can easily intall more than one version of NodeJS on your PC/VM with ``nvm install 6.2`` and use that using ``nvm use 6.2``
-* Now your terminal is set to use nodejs 6.2 or your prefered version, now you can start up the server by running
+* On Linux you need to have NodeJS installed (>6) if you do not have it installed simply open the terminal then run
+``$ nvm install 6.2`` (6 or your prefered version)
+* If you do not have ``nvm`` then run ``curl https://raw.githubusercontent.com/creationix/nvm/v0.33.0/install.sh | bash`` then `` source ~/.profile`` to add ``nvm`` to the environment variables
+* You can easily intall more than one version of NodeJS on your PC/VM with ``nvm install 6`` and use that using ``nvm use 6``
+* Now your terminal is set to use nodejs 6 or your prefered version, now you can start up the server by running
 ``node app`` or ``node app.js`` you even might specify the port in which to run the server on eg:- ``node app.js 8080`` if you do not mention the port, the mentioned port from **Config.port** will be used to run the server
 
 ### Developers:
