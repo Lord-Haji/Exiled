@@ -9,7 +9,7 @@ This server requires the Node Js Version 6.6.0 or higher<br>
 * After installing your preffered version of NodeJS (>6.2), you can easily start up NodeJS Command Prompt then run
 ``node app`` or ``node app.js`` you even might specify the port in which to run the server on eg:- ``node app.js 8080`` if you do not mention the port, the mentioned port from **Config.port** will be used to run the server
 
-### `OS X`
+#### `OS X`
 
 * On OS X you can install NodeJS with Homebrew (the easiest way) just like ``brew install node``.
 * If you do not have Homebew installed, firstly fire up the terminal and execute the following command:
